@@ -3,7 +3,7 @@ services:
   service-one:
     image: 'tomcat'
     ports:
-    - "8081-8086:8080"
+    - "8081-8085:8080"
     volumes:
-    - " /home/ec2-user/wars:/usr/local/tomcat/webapps"  
+    - /home/ec2-user/wars:/usr/local/tomcat/webapps
 
