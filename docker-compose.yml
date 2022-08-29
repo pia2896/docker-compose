@@ -5,5 +5,5 @@ services:
     ports:
     - "8081-8085:8080"
     volumes:
-    - /home/ec2-user/wars:/usr/local/tomcat/webapps
+    - "/home/ec2-user/wars:/usr/local/tomcat/webapps"
 
