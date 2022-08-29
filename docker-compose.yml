@@ -1,7 +1,7 @@
 version: '3'
 services:
   service-one:
-    image: 'tomcat : 9'
+    image: 'tomcat:9'
     ports:
     - "8081-8085:8080"
     volumes:
