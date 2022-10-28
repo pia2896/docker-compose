@@ -7,3 +7,7 @@ services:
     volumes:
     - "/home/ec2-user/wars:/usr/local/tomcat/webapps"
 
+
+
+
+##########################################################################
